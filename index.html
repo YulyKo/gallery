@@ -6,14 +6,21 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
-    <section class="gallery">
-        <img class="image image--" src="img/2571x3000.jpg" role="img">
-        <img class="image image--" src="img/3456x2304.jpg" role="img">
-        <img class="image image--" src="img/3872x2592.jpg" role="img">
-        <img class="image image--" src="img/3888x2592.jpg" role="img">
-        <img class="image image--" src="img/4272x2848.jpg" role="img">
-        <img class="image image--" src="img/3992x2242.jpg" role="img">
+    <input value="Нажми меня" onclick="revers()" type="button">
+    <section class="gallery" id="gallery">
+        <img class="image image--" id="image0" onclick="magnificationImg0()" src="img/2571x3000.jpg" role="img">
+        <img class="image image--" id="image1" onclick="magnificationImg1()" src="img/3456x2304.jpg" role="img">
+        <img class="image image--" id="image2" src="img/3872x2592.jpg" role="img">
+        <img class="image image--" id="image3" src="img/3888x2592.jpg" role="img">
+        <img class="image image--" id="image4" src="img/3992x2242.jpg" role="img">
     </section>
-    <script src="script.js"></script>
+    <section class="gallery gallery-d" id="gallery-demonstration">
+        <img class="image image--d" id="image0-d" src="img/2571x3000.jpg" role="img">
+        <img class="image image--d" id="image1-d" src="img/3456x2304.jpg" role="img">
+        <img class="image image--d" id="image2-d" src="img/3872x2592.jpg" role="img">
+        <img class="image image--d" id="image3-d" src="img/3888x2592.jpg" role="img">
+        <img class="image image--d" id="image4-d" src="img/3992x2242.jpg" role="img">
+    </section>
+    <script src="script.js" type="text/javascript"></script>
 </body>
 </html>

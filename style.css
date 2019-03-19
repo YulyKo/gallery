@@ -6,14 +6,26 @@ body {
 }
 
 .gallery {
+  height: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  background-color: #FFC8;
 }
 
 .image {
-  width: 25%;
-  height: 25%;
+  width: auto;
+  height: 100%;
+}
+
+.gallery-d {
+  height: 50%;
+  background-color: #290f5a;
+}
+
+.image--d {
+  height: 500px;
+  display: none;
 }
